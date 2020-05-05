@@ -10,6 +10,9 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+ipfilter:
+  timeWindow: 60000
+  times: 10
 management:
   endpoints:
     web:
